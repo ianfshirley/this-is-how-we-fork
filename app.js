@@ -1,14 +1,10 @@
 'use strict';
 
-function colorQuestion() {
-  let answer = 'red';
-  let valueToCheck = 'orange';
+let answer = "red";
+let valueToCheck = "orange";
 
-  if (valueToCheck === answer) {
-    console.log('The values match!');
-  } else {
-    console.log('The values don\'t match');
-  }
+if (valueToCheck === answer) {
+  console.log('The values match!');
+} else {
+  console.log('The values don\'t match');
 }
-
-colorQuestion();
